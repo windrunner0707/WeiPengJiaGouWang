@@ -1,29 +1,70 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="Content-Style-Type" content="text/css">
+  <link rel="stylesheet" href="js/slick.css">
+   <link rel="stylesheet" href="font/font.css">
+  <script src="js/jquery.js"></script>
+  <script src="js/slick.js"></script>
+   <style type = "text/css" >
+   img
+	{
+	opacity:0.4;
+	filter:alpha(opacity=100); /* 针对 IE8 以及更早的版本 */
+	}
+    body{
+        height: 100%;
+        min-height: 100%;
+        overflow: hidden;
+        background: #fff;
+        color: #fff;
+    }
+    .background{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: url('img/img_5.jpg') no-repeat;
+		background-size: cover;
+        z-index: 1;
+    }
+	</style>
   <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="1671.2">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'PingFang SC'}
-    span.s1 {font: 12.0px 'PingFang SC'}
-    span.s2 {font: 12.0px Helvetica}
-  </style>
 </head>
-<body>
-<p class="p1">&lt;!DOCTYPE html&gt;</p>
-<p class="p1">&lt;html&gt;</p>
-<p class="p1">&lt;head&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;<span class="s1">伟鹏架构网</span>&lt;/title&gt;</p>
-<p class="p1">&lt;/head&gt;</p>
-<p class="p1">&lt;body&gt;</p>
-<p class="p2"><span class="s2">&lt;h1&gt;</span>所有的一切，都是为了让代码造福人类！<span class="s2">&lt;/h1&gt;</span></p>
-<p class="p2"><span class="s2">&lt;h2&gt;</span>阿里<span class="s2">P8</span>工程师段伟鹏多年高并发架构知识积累<span class="s2">&lt;/h2&gt;</span></p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
+<body bgcolor="#FF0000">
+	 <div class="slick background" >
+        <div class="slick-son" align="left">
+			<img src="img/img_1.jpg"  alt="所有的一切，都是为了让代码造福人类！" style="width: 400px;height: 300px"/>
+			<h1 class="sweet">所有的一切，都是为了让代码造福人类！</h1>	
+		</div>
+        <div class="slick-son" align="left">
+			<img src="img/img_2.png"  alt="工程师段伟鹏多年高并发架构知识积累!" style="width: 400px;height: 300px"/>
+			<h1 class="honey">工程师段伟鹏多年高并发架构知识积累!</h1>
+		</div>
+        <div class="slick-son" align="left">
+			<img src="img/img_3.png"  alt="Nothing in the world is impossible if you set your mind to do it!" style="width: 400px;height:300px"/>
+			<h1 class="blank">Nothing in the world is impossible if you set your mind to do it!</h1>
+		</div>
+        <div class="slick-son" align="left">
+			<img src="img/img_4.jpg"  alt="写代码只为造福人类!" style="width: 400px;height: 300px"/>
+			<h1 class="cat1">写代码只为造福人类!</h1>
+		</div>
+    </div>
+	<script>
+        $('.slick').slick({
+            vertical:false,//垂直方向
+            dots: true,//指示点
+            autoplay:false,
+            autoplaySpeed:3000,
+            arrows:true,//左右箭头
+            onAfterChange:function(o){
+                console.log(o)
+            },//切换后的回调函数
+
+            slidesToShow:1,//幻灯片每屏显示个数
+            slidesToScroll:1,//幻灯片每次滑动个数
+        });
+    </script>
 </body>
 </html>
