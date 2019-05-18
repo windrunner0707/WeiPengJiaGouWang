@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>/Users/qqbai/Documents/Gridea/output</id>
     <title>伟鹏架构网</title>
-    <updated>2019-05-17T16:15:08.002Z</updated>
+    <updated>2019-05-18T05:53:07.983Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="/Users/qqbai/Documents/Gridea/output"/>
     <link rel="self" href="/Users/qqbai/Documents/Gridea/output/atom.xml"/>
-    <subtitle>阿里P8工程师段伟鹏经验总结</subtitle>
+    <subtitle>段伟鹏架构知识总结</subtitle>
     <logo>/Users/qqbai/Documents/Gridea/output/images/avatar.png</logo>
     <icon>/Users/qqbai/Documents/Gridea/output/favicon.ico</icon>
     <rights>All rights reserved 2019, 伟鹏架构网</rights>
@@ -16,7 +16,7 @@
         <link href="/Users/qqbai/Documents/Gridea/output/post/hua-wei-ji-zhu-yu-a-li-ji-zhu-de-rong-he/index.html">
         </link>
         <updated>2019-05-17T16:06:14.000Z</updated>
-        <content type="html"><![CDATA[<p>test</p>
+        <content type="html"><![CDATA[<p>个人认为华为技术普遍落后于阿里</p>
 ]]></content>
     </entry>
     <entry>
@@ -25,7 +25,7 @@
         <link href="/Users/qqbai/Documents/Gridea/output/post/a-li-ji-zhu-zai-shan-qi-de-tui-guang-shi-jian/index.html">
         </link>
         <updated>2019-05-17T16:05:48.000Z</updated>
-        <content type="html"><![CDATA[<p>test</p>
+        <content type="html"><![CDATA[<p>陕汽沿用阿里技术</p>
 ]]></content>
     </entry>
     <entry>
@@ -34,7 +34,7 @@
         <link href="/Users/qqbai/Documents/Gridea/output/post/qian-tan-a-li-dubbo-zhi-bu-zu/index.html">
         </link>
         <updated>2019-05-17T16:05:20.000Z</updated>
-        <content type="html"><![CDATA[<p>test</p>
+        <content type="html"><![CDATA[<p>阿里Dubbo性能瓶颈</p>
 ]]></content>
     </entry>
 </feed>
